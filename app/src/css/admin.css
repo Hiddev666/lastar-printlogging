@@ -1,0 +1,253 @@
+@font-face {
+  font-family: Work Sans;
+  src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #e2ecd9;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.main-left {
+  width: 20%;
+}
+
+.main-right {
+  width: 80%;
+  padding: 40px 40px 40px 40px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 16%;
+  background-color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar-header {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sidebar-header img {
+  width: 40px;
+}
+
+.sidebar-header div {
+  margin-left: 10px;
+}
+
+.sidebar-header div p {
+  font-size: 13px;
+}
+
+.sidebar-menu {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-item {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sidebar-item:hover {
+  background-color: #eaeaea;
+}
+
+.sidebar-item-active {
+  background-color: #436850;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  display: flex;
+  gap: 60px;
+  height: 86vh;
+}
+
+.dashboard-left {
+  width: 73%;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 18%;
+}
+
+.card-detail-today {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card-detail-today-header {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-detail-today-header img {
+    width: 30px;
+}
+
+.card-detail-today table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-detail-today td {
+    height: 50px;
+}
+
+.statistics-today {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.statistics-today-header {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics-today-header img {
+  width: 40px;
+}
+
+.statistics-today-count {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* RECAP */
+.recap {
+  display: flex;
+  gap: 60px;
+  height: 86vh;
+}
+
+.recap-left {
+  width: 73%;
+}
+
+.recap-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 18%;
+}
+
+.card-recap {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.card-recap-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.btn-recap-type-wrapper {
+  display: flex;
+  gap: 7px;
+}
+
+.btn-recap-type {
+  width: 70px;
+  border: none;
+  background-color: #e2ecd9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-recap-type-active {
+  background-color: #436850;
+  color: white;
+}
+
+.recap-date {
+  background-color: #436850;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.card-recap-header select {
+  padding: 10px;
+  background-color: #436850;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.card-recap-header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.card-recap-header img {
+  width: 35px;
+}
+
+
+.card-recap table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-recap td {
+    height: 50px;
+}
+
+/* RECAP */
+
